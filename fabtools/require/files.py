@@ -9,7 +9,7 @@ directories.
 
 from pipes import quote
 from tempfile import mkstemp
-from urlparse import urlparse
+from urllib.parse import urlparse
 import hashlib
 import os
 
